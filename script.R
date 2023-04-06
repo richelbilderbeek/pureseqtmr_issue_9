@@ -1,3 +1,3 @@
-install.packages(c("remotes", "testthat"))
-remotes::install_github("richelbilderbeek/pureseqtmrinstall")
+install.packages("remotes")
+remotes::install_github("richelbilderbeek/pureseqtmrinstall", dependencies = TRUE)
 pureseqtmrinstall::install_pureseqtm()
